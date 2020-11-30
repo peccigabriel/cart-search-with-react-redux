@@ -1,0 +1,37 @@
+ {
+  "search": "",
+  "products": [
+    {
+      "id": 1,
+      "name": "PC Gamer Intel i7 16GB 256SSD",
+      "image": "https://dm2306files.storage.live.com/y4my4zO8TEuDkZaKDoNW5NTN8HuZDmdyMfNXiqHIxBvZbJLTJXWR7d1n9gm6Gzfktrb84W10W2gQCvocxcwMGjF4zz-XzTYEXHb9k1ncmiV0yKA4vIbblOB14LQ6a3YNZtqryCs8m2SD7Uy6YeL60FS3ALHMSi56PTqgFehJVJVoM6LBSPUd0zHW1qonZFoE1MNHlku4ufBzfnvQMU7I7SMQg/pc-gamer.jpg?psid=1&width=300&height=300&cropMode=center",
+      "price": 5990,
+      "stock": 3,
+      "quantity": 0
+    },
+    {
+      "id": 2,
+      "name": "Teclado Mecânico Gamer 1ms Resposta",
+      "image": "https://dm2306files.storage.live.com/y4mlSA-R09HIzR77OtFDGU0C3wfa40EJ1Ecrs5W-z8pEyFD_99b5oXhAbG77Y4wKX2aEYxX2PNSTHqn_-TTHouhmTlPoV2mt2gegh9JeFoUfHwXYj_evItTmTGfa8KCio2F6SbS3Y9G9DWlE7RAnwA4h7Q6M-wsz2nWdZocwoqVg6INFii9g0zW4CkhvMbJh1wAdF3vBNHh1oo3Vjut9l3t6g/teclado.jpg?psid=1&width=300&height=300&cropMode=center",
+      "price": 599,
+      "stock": 5,
+      "quantity": 0
+    },
+    {
+      "id": 3,
+      "name": "Caixa de som JBL c/ Bluetooth",
+      "image": "https://dm2306files.storage.live.com/y4m5RCVc8rQUmHz7tCoTUIM-0c27VdxRZ81yWsH6F1KbR0skx6H-ZmvXJk-y4vZzf44SAPCrcRsW_RNbX63XX-KgoBNHyNAOKboen5Qe4DtQ1YfRF5LtSn0-J6BoCLjHJQo8mKp4gWSX4zDRzLVjq6B1uwaITQU08FiqFfR2_RtUczDiikk7nztZA78tvTHVPTdhh4JfX77-YHFxgVzd8pZhg/caixa-som.jpg?psid=1&width=300&height=300&cropMode=center",
+      "price": 799,
+      "stock": 2,
+      "quantity": 0
+    },
+    {
+      "id": 4,
+      "name": "Cooler Master de Refrigeração",
+      "image": "https://dm2306files.storage.live.com/y4mfGqnBPW3lttmKNd_OuRkIQ6abyFs4icVXx8Nv97xR3LbzLGlzDYvqsVD0qZVfn7t8boln6V8MnUd9z4d3rXFleEWTyK-S7LO-ug5CPT8-_mYVhsbHqMJVlSIdYu73Ede9_zfMUX_LVL6p3Z0v_h6OItiQnAoqN1loAl_B-8q4HOW0F6PYRlrMFSUV9dSb5R094-_93PTNCf-fza7XCnAkw/cooler.jpg?psid=1&width=300&height=300&cropMode=center",
+      "price": 399,
+      "stock": 6,
+      "quantity": 0
+    }
+  ]
+}

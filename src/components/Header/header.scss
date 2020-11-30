@@ -1,0 +1,39 @@
+.header {
+  width: 100%;
+  height: 148px;
+  background-color: #febf00;
+
+  .header-content {
+    max-width: 1366px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 32px;
+    margin: 0 auto;
+
+    .header-search {
+      max-width: 620px;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+
+      &__input {
+        min-width: 600px;
+        min-height: 40px;
+        border: none;
+        border-radius: 2px;
+        padding: 8px 16px;
+        font-size: 16px;
+        color: #1d1d1d;
+      }
+
+      &__find {
+        position: relative;
+        top: 4px;
+        right: 24px;
+        cursor: pointer;
+      }
+    }
+  }
+}

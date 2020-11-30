@@ -1,0 +1,49 @@
+.cartlist {
+  margin: 0 auto;
+  z-index: 2;
+
+  &__menu {
+    background-color: #fff;
+    box-shadow: -2px -5px 6px rgba(0, 0, 0, 0.24);
+    width: 380px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    overflow-y: scroll;
+  }
+
+  &__menu.active {
+    right: 0;
+    margin: 0 auto;
+    display: flow-root;
+  }
+
+  &__toggle {
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  &__bars {
+    margin: 12px;
+
+    & svg {
+      width: 20px;
+    }
+  }
+
+  &__itens {
+    margin-top: 16px;
+  }
+
+  &__empty {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+  }
+}

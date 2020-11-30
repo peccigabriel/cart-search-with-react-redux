@@ -1,0 +1,46 @@
+.quantity-btn {
+  width: 180px;
+  margin: 16px auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border: 1px solid #f2f2f2;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+
+  input {
+    max-width: 16px;
+  }
+
+  svg {
+    width: 24px;
+  }
+
+  div {
+    display: flex;
+    align-items: center;
+  }
+
+  button {
+    border: none;
+    background: none;
+  }
+
+  &__trash {
+    margin-right: 16px;
+    cursor: pointer;
+  }
+
+  &__minus,
+  &__plus {
+    margin: 16px;
+    cursor: pointer;
+  }
+
+  &__span {
+    font-size: 14px;
+  }
+}
+
+

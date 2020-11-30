@@ -1,0 +1,59 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cards {
+  margin: 32px 16px;
+  width: 302px;
+  height: 400px;
+  background: #ffffff;
+  border: 1px solid #f2f2f2;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+
+  &__image {
+    height: 300px;
+    margin: 0 auto;
+  }
+
+  &__text {
+    height: 100px;
+    background-color: #1d1d1d;
+    display: flex;
+    justify-content: space-between;
+
+    &--infos {
+      display: flex;
+      flex-direction: column;
+      padding: 8px;
+
+      p {
+        font-weight: 500;
+        color: #fff;
+      }
+
+      span {
+        margin-top: 8px;
+        font-weight: 700;
+        font-size: 2rem;
+        color:  #febf00;;
+      }
+    }
+
+    & button {
+      min-width: 100px;
+      border: none;
+      background-color: #ff6101;
+      cursor: pointer;
+    }
+
+    &--cart {
+      width: 100px;
+      height: 60px;
+      fill: #fff;
+    }
+  }
+}
