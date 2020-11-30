@@ -10,6 +10,8 @@ const ProductCards = () => {
       const filters = products.filter((i) => {
         if (regex.test(i.name) || i.id === parseInt(search)) {
           return i;
+        } else {
+          return null;
         }
       });
       return filters;
